@@ -33,4 +33,4 @@ jobs:
           context: .
           file: Dockerfile  # 将 dockerfile 改为 file
           push: false
-          tags: ${{ secrets.DOCKER_USERNAME }}/spring-boot-for-beginner:$(date +'%Y-%m-%dT%H-%M-%S')
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/spring-boot-for-beginner:latest
